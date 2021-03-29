@@ -15,17 +15,17 @@ For linux ubuntu. I have to install these dependencies for rust, gcc and gtk:
 
 ## git [source: https://git-scm.com/download/linux](https://git-scm.com/download/linux)
 
-https://git-scm.com/download/linux
+sudo apt-get install git
 
-## rust
+## rust [source: https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-## c compiler
+## c compiler [source: https://ostechnix.com/how-to-fix-rust-error-linker-cc-not-found-on-linux/](https://ostechnix.com/how-to-fix-rust-error-linker-cc-not-found-on-linux/)
 
 sudo apt install build-essential cmake 
 
-## gtk
+## gtk [source: https://www.gtk.org/docs/installations/linux/](https://www.gtk.org/docs/installations/linux/)
 sudo apt install libgtk-3-dev
 
 
